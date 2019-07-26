@@ -9,7 +9,7 @@ add the library as your dev dependency
 
 ```yaml
 dev_dependencies:
-  flutter_teg_code_style:
+  flutter_code_style:
     git: git://github.com/bitsydarel/flutter-code-style.git
     ref: v1.0
 ```
