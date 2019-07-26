@@ -39,6 +39,7 @@ linter:
     - throw_in_finally
     - unnecessary_statements
     - unrelated_type_equality_checks
+    - dead_code
 
 
 analyzer:
@@ -57,4 +58,5 @@ analyzer:
     unnecessary_const: warning
     avoid_catches_without_on_clauses: warning
     use_rethrow_when_possible: warning
+    dead_code: error
 
