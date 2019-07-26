@@ -40,6 +40,9 @@ linter:
     - unnecessary_statements
     - unrelated_type_equality_checks
     - dead_code
+    - unused_import
+    - unused_element
+    - unused_local_variable
 
 
 analyzer:
@@ -59,4 +62,7 @@ analyzer:
     avoid_catches_without_on_clauses: warning
     use_rethrow_when_possible: warning
     dead_code: error
+    unused_import: error
+    unused_element: error
+    unused_local_variable: error
 
