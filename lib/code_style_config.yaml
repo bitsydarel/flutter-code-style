@@ -1,0 +1,74 @@
+linter:
+  rules:
+    # STYLE
+    - camel_case_types
+    - library_names
+    - file_names
+    - library_prefixes
+    - non_constant_identifier_names
+    - constant_identifier_names # prefer
+    - directives_ordering
+    - lines_longer_than_80_chars # avoid
+    - curly_braces_in_flow_control_structures
+    - always_declare_return_types
+    - always_put_required_named_parameters_first
+    - always_require_non_null_named_parameters
+    - annotate_overrides
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_field_initializers_in_const_classes
+    - avoid_renaming_method_parameters
+    - await_only_futures
+    - cascade_invocations
+    - join_return_with_assignment
+    - overridden_fields
+    - prefer_const_constructors_in_immutables
+    - prefer_const_constructors
+    - prefer_conditional_assignment
+    - prefer_asserts_with_message
+    - prefer_asserts_in_initializer_lists
+    - prefer_double_quotes
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_for_elements_to_map_fromIterable
+    - prefer_if_elements_to_conditional_expressions
+    - prefer_if_null_operators
+    - prefer_inlined_adds
+    - prefer_int_literals
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_mixin
+    - prefer_null_aware_operators
+    - prefer_spread_collections
+    - provide_deprecation_message
+    - recursive_getters
+    - sort_child_properties_last
+    - sort_constructors_first
+    - type_annotate_public_apis
+    - unnecessary_await_in_return
+    - unnecessary_null_aware_assignments
+    - unnecessary_null_in_if_null_operators
+    - unnecessary_overrides
+    - unnecessary_parenthesis
+    - use_full_hex_values_for_flutter_colors
+    - use_string_buffers
+
+analyzer:
+  errors:
+    camel_case_types: warning
+    library_names: error
+    file_names: error
+    library_prefixes: warning
+    non_constant_identifier_names: warning
+    directives_ordering: warning
+    lines_longer_than_80_chars: warning
+    curly_braces_in_flow_control_structures: error
+    always_require_non_null_named_parameters: error
+    avoid_renaming_method_parameters: warning
+    await_only_futures: warning
+    cascade_invocations: warning
+    prefer_const_constructors_in_immutables: error
+    prefer_asserts_in_initializer_lists: warning
+    prefer_if_elements_to_conditional_expressions: warning
+
+
+

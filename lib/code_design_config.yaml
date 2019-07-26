@@ -1,0 +1,34 @@
+linter:
+  rules:
+    # DESIGN
+    - use_to_and_as_if_applicable # prefer
+    - one_member_abstracts # avoid
+    - avoid_classes_with_only_static_members # avoid
+    - prefer_final_fields # prefer
+    - use_setters_to_change_properties
+    - avoid_setters_without_getters
+    - avoid_returning_null # avoid
+    - avoid_returning_this # avoid
+    - prefer_typing_uninitialized_variables # prefer
+    - omit_local_variable_types # avoid
+    - avoid_return_types_on_setters
+    - prefer_generic_function_type_aliases
+    - avoid_private_typedef_functions
+    - use_function_type_syntax_for_parameters # consider
+    - avoid_positional_boolean_parameters # avoid
+    - hash_and_equals
+    - avoid_null_checks_in_equality_operators
+    - avoid_types_as_parameter_names
+
+
+analyzer:
+  errors:
+    use_to_and_as_if_applicable: warning
+    one_member_abstracts: warning
+    prefer_final_fields: warning
+    avoid_setters_without_getters: error
+    prefer_generic_function_type_aliases: error
+    avoid_private_typedef_functions: warning
+    avoid_positional_boolean_parameters: warning
+    hash_and_equals: error
+    avoid_null_checks_in_equality_operators: warning

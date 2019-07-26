@@ -1,0 +1,8 @@
+name: flutter_code_style
+description: Dare's flutter code style for application and libraries.
+version: 1.0.0
+homepage: https://github.com/bitsydarel/flutter-code-style
+author: darelbitsy <bitsydarel@gmail.com>
+
+environment:
+  sdk: '>=2.2.0 <3.0.0'
