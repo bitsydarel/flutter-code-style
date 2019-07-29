@@ -16,7 +16,6 @@ linter:
     - avoid_returning_null # avoid
     - avoid_returning_this # avoid
     - prefer_typing_uninitialized_variables # prefer
-    - omit_local_variable_types # avoid
     - avoid_return_types_on_setters
     - prefer_generic_function_type_aliases
     - avoid_private_typedef_functions
