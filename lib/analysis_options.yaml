@@ -40,6 +40,7 @@ linter:
     - unnecessary_getters_setters
     - unnecessary_getters # prefer
     - unnecessary_new
+    - missing_return
     #- prefer_expression_function_bodies # consider
     - unnecessary_this
     - prefer_initializing_formals
@@ -174,3 +175,4 @@ analyzer:
     unused_import: error
     unused_element: error
     unused_local_variable: error
+    missing_return: error
