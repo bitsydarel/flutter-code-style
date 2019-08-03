@@ -12,7 +12,7 @@ dev_dependencies:
   flutter_code_style:
     git:
       url: git://github.com/bitsydarel/flutter-code-style.git
-      ref: v1.0
+      ref: v1.6.1
 ```
 
 also add the library analysis_option.yaml to your project analysis_option.yaml
