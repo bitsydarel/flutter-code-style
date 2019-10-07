@@ -26,6 +26,7 @@ linter:
     - avoid_null_checks_in_equality_operators
     - avoid_types_as_parameter_names
     # USAGE
+    - invalid_use_of_visible_for_testing_member
     - avoid_relative_lib_imports # prefer
     - prefer_adjacent_string_concatenation
     - prefer_interpolation_to_compose_strings # prefer
@@ -124,6 +125,8 @@ linter:
     - package_api_docs # prefer
     - public_member_api_docs # prefer
     - comment_references
+    - invalid_use_of_protected_member
+    - unawaited_futures
 
 analyzer:
   strong-mode:
@@ -176,3 +179,7 @@ analyzer:
     unused_element: error
     unused_local_variable: error
     missing_return: error
+    invalid_use_of_visible_for_testing_member: error
+    avoid_slow_async_io: warning
+    invalid_use_of_protected_member: error
+    unawaited_futures: warning
