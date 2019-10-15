@@ -129,6 +129,8 @@ linter:
     - unawaited_futures
 
 analyzer:
+  exclude:
+    - lib/*.g.dart
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
