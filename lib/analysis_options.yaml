@@ -95,7 +95,6 @@ linter:
     - prefer_conditional_assignment
     - prefer_asserts_with_message
     - prefer_asserts_in_initializer_lists
-    - prefer_double_quotes
     - prefer_final_in_for_each
     - prefer_final_locals
     - prefer_for_elements_to_map_fromIterable
