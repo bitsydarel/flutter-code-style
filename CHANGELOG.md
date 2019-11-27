@@ -25,3 +25,9 @@
 ## 1.6.6
 
 - removed prefer_double_quotes rule because it's should not be imposed on client of this package.
+
+## 1.6.7
+
+- update the severity of lint rule type_annotate_public_apis to error so that dev won't forget to specify type for important method return type.
+- added lint rule must_call_super and set the severity to error so that dev won't forget to call it.
+- added unused_field and set the severity to error so that unused_field won't be forgotten.

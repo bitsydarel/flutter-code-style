@@ -126,6 +126,8 @@ linter:
     - comment_references
     - invalid_use_of_protected_member
     - unawaited_futures
+    - must_call_super
+    - unused_field
 
 analyzer:
   exclude:
@@ -184,3 +186,7 @@ analyzer:
     avoid_slow_async_io: warning
     invalid_use_of_protected_member: error
     unawaited_futures: warning
+    type_annotate_public_apis: error
+    must_call_super: error
+    unused_field: error
+    unnecessary_overrides: error
