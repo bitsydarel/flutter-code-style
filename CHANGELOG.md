@@ -31,3 +31,7 @@
 - update the severity of lint rule type_annotate_public_apis to error so that dev won't forget to specify type for important method return type.
 - added lint rule must_call_super and set the severity to error so that dev won't forget to call it.
 - added unused_field and set the severity to error so that unused_field won't be forgotten.
+
+## 1.6.8
+
+- Added exclude the following files and directories: lib/**.g.dart, test/**.g.dart, flutter_test/**.g.dart, build/**
