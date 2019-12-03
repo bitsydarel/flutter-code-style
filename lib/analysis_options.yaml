@@ -130,8 +130,7 @@ linter:
     - unused_field
 
 analyzer:
-  exclude:
-    - lib/**.g.dart
+  exclude: [lib/**.g.dart, test/**.g.dart, flutter_test/**.g.dart, build/**]
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
