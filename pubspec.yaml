@@ -5,4 +5,4 @@ homepage: https://github.com/bitsydarel/flutter-code-style
 author: darelbitsy <bitsydarel@gmail.com>
 
 environment:
-  sdk: '>=2.2.0 <3.0.0'
+  sdk: '>=2.4.0 <3.0.0'
