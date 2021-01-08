@@ -36,6 +36,6 @@
 
 - Added exclude the following files and directories: lib/**.g.dart, test/**.g.dart, flutter_test/**.g.dart, build/**
 
-## 2.0
+## 2.0.0
 
 - Added rules for dart 2.11
