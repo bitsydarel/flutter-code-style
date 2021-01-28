@@ -45,6 +45,6 @@
 - Substituted prefer double quote rule to prefer single quote rules, because there's currently no way to edit
   Intellij/VSCode dart code style to change the default behavior for imports.
 
-## 2.0.1
+## 2.0.2
 
 - Made missing_required_param as an error so code place that don't provide require argument will be flagged as error.
