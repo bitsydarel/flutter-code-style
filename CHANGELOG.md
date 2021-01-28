@@ -39,3 +39,12 @@
 ## 2.0.0
 
 - Added rules for dart 2.11
+
+## 2.0.1
+
+- Substituted prefer double quote rule to prefer single quote rules, because there's currently no way to edit
+  Intellij/VSCode dart code style to change the default behavior for imports.
+
+## 2.0.1
+
+- Made missing_required_param as an error so code place that don't provide require argument will be flagged as error.
