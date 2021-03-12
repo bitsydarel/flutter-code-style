@@ -1,6 +1,6 @@
 name: flutter_code_style
 description: Darel bitsy's flutter code style for application and libraries that focus on dart best pratices.
-version: 2.1.0
+version: 2.1.0-nullsafety.0
 repository: https://github.com/bitsydarel/flutter-code-style
 issue_tracker: https://github.com/bitsydarel/flutter-code-style/issues
 
