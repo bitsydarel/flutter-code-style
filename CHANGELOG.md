@@ -48,3 +48,14 @@
 ## 2.0.2
 
 - Made missing_required_param as an error so code place that don't provide require argument will be flagged as error.
+
+## 2.1.0
+
+- Upgrade package to null safe and dart 2.12.0.
+
+## 2.1.1
+
+- Removed avoid_as rule as it's now deprecated.
+- Changed rule diagnostic_describe_all_properties level from warning to info.
+- Change rule public_member_api_docs level from warning to info.
+- Change rule public_member_api_docs level from warning to info.

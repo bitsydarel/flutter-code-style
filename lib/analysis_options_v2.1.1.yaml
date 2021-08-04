@@ -29,12 +29,12 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 analyzer:
-  exclude: [ lib/**.g.dart, build/** ]
+  exclude: [ lib/**.g.dart, build/**, lib/**.freezed.dart ]
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
   errors:
-    diagnostic_describe_all_properties: warning
+    diagnostic_describe_all_properties: info
     use_key_in_widget_constructors: info
     always_declare_return_types: error
     always_put_control_body_on_new_line: error
@@ -42,7 +42,6 @@ analyzer:
     always_require_non_null_named_parameters: error
     always_specify_types: error
     annotate_overrides: error
-    avoid_as: error
     avoid_catches_without_on_clauses: warning
     avoid_catching_errors: error
     avoid_classes_with_only_static_members: info
@@ -109,11 +108,12 @@ analyzer:
     prefer_if_elements_to_conditional_expressions: warning
     prefer_typing_uninitialized_variables: warning
     provide_deprecation_message: error
-    public_member_api_docs: error
+    public_member_api_docs: warning
     recursive_getters: error
     sized_box_for_whitespace: error
     type_annotate_public_apis: error
     use_full_hex_values_for_flutter_colors: warning
+    missing_required_param: error
 
 linter:
   rules:
@@ -154,7 +154,6 @@ linter:
     - always_require_non_null_named_parameters
     - always_specify_types
     - annotate_overrides
-    - avoid_as
     - avoid_catches_without_on_clauses
     - avoid_catching_errors
     - avoid_classes_with_only_static_members
