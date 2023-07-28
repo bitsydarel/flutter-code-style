@@ -11,7 +11,7 @@ add the library as your dev dependency
 
 ```yaml
 dev_dependencies:
-  flutter_code_style: ^2.1.0
+  flutter_code_style: ^2.2.0
 ```
 
 also add the library analysis_option.yaml to your project analysis_option.yaml
