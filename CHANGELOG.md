@@ -1,3 +1,7 @@
+## 2.2.0
+
+- Add compatibility with Dart 3
+
 ## 1.6.1
 
 - Initial version, created by Darel Bitsy.
